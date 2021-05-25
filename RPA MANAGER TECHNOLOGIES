@@ -1,6 +1,6 @@
-<mxfile modified="2021-05-25T14:11:58.568Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="n47Plzk1VRJtekotCQuw" version="14.7.0" type="github">
+<mxfile modified="2021-05-25T14:28:21.219Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="MNUHEPWkZttnhdoK5umx" version="14.7.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2370" dy="1242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
           <mxGeometry x="1187" y="754" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-27" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;UiPath Process Executor&lt;/span&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1126" y="1057" width="120" height="80" as="geometry" />
+          <mxGeometry x="1100" y="1097" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-28" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;UiPath Process Executor&lt;/span&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1016" y="1189" width="120" height="80" as="geometry" />
@@ -89,13 +89,13 @@
           <mxGeometry x="1327" y="654" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="1269" y="1057" width="20" height="160" as="geometry" />
+          <mxGeometry x="1245" y="1098" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-38" value="Environment_1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1376" y="734.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-39" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Environment_2&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1296" y="1174" width="110" height="30" as="geometry" />
+          <mxGeometry x="1272" y="1215" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-41" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -263,6 +263,21 @@
         </mxCell>
         <mxCell id="59RjPKkOxkL2sefdzUnI-107" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiB2aWV3Qm94PSIwIDAgNTQ2LjA5OTk3NTU4NTkzNzUgOTEuMTk5OTk2OTQ4MjQyMTkiIHdpZHRoPSI1NDYuMDk5OTc1NTg1OTM3NSIgaGVpZ2h0PSI5MS4xOTk5OTY5NDgyNDIxOSI+PHN0eWxlPi5zdDB7ZmlsbDojNTk2NjZjfS5zdDF7ZmlsbDojYmNhZTc5fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTM1LjEgMzAuNEwxNy41IDYwLjggMCAzMC40IDE3LjUgMHoiLz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNNTIuNiAwSDE3LjVsMTcuNiAzMC40aDM1LjF6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTUyLjYgNjAuOGwxNy42LTMwLjQgMTcuNSAzMC40LTE3LjUgMzAuNHoiLz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNMzUuMSA5MS4yaDM1TDUyLjYgNjAuOEgxNy41eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNTEuMyA2MC40Vi40aC05LjZ2MjQuOGgtMjguNFYuNGgtOS43djYwaDkuN3YtMjdoMjguNHYyN3pNMTc5LjEgNjAuNFYuNGgtOS43djYwek0yMzcuMSA0Mi4yYzAtNi4yLTMuNi0xMi4yLTExLjUtMTMuN3YtLjJjNi4xLTIuMSAxMC4yLTcuNiAxMC4yLTEzLjdDMjM1LjggNS40IDIyOSAwIDIxNiAwYy03LjMgMC0xNC4xLjItMTguOC4zdjYwYzYuNy4xIDEyLjcuMyAxNi40LjMgMTguMyAwIDIzLjUtMTAuNiAyMy41LTE4LjR6bS0xMS40LTI2YzAgNi00LjcgOS43LTEzLjcgOS43LTIgMC0zLjYgMC01LjItLjFWOGMyLjMtLjEgNC45LS4yIDcuNi0uMiA4LjYgMCAxMS4zIDMuNSAxMS4zIDguNHptMS4yIDI2LjJjMCA2LTQuMiAxMC4zLTEzIDEwLjMtMy4xIDAtNS41LS4yLTctLjRWMzMuMmMxLjMtLjEgNC40LS4xIDUuNC0uMSA4LjQgMCAxNC42IDIuNSAxNC42IDkuM3pNMjgzLjEgNjAuNHYtOC4zaC0yMlYzMy40SDI4MnYtNy45aC0yMC45VjguNGgyMnYtOGgtMzEuN3Y2MHpNMzM5LjEgNjAuNGwtMTUuOC0yMC45Yy0xLjUtMi0zLjQtNC4zLTUuMS02LjQgOS44LTEuMSAxNy03LjIgMTctMTYuOCAwLTExLjktOC41LTE2LjMtMjEtMTYuMy02LjggMC0xMS43LjEtMTYuMS40djYwaDkuN3YtMjZoLjRsMTguNyAyNmgxMi4yem0tMTQtNDMuMWMwIDYtNC43IDEwLTEyLjUgMTAtMi4xIDAtMy44LS4xLTQuNy0uMnYtMTljMS40LS4xIDMuMi0uMiA1LjEtLjIgOCAwIDEyLjEgMi45IDEyLjEgOS40eiIvPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0zOTkuNyA2MC40Vi40aC05LjR2MTcuOGMwIDguOC4zIDIxLjcuNiAyOC41LTIuMi00LjQtNC42LTkuMi03LjMtMTMuNkwzNjMuOC40aC0xMi43djYwaDkuNFY0MC4yYzAtOC41LS4yLTIwLjctLjUtMjYuNiAxLjkgNCA0IDguMyA2LjcgMTIuNmwyMC41IDM0LjFoMTIuNXYuMXpNNDYzLjggNjAuNEw0NDIgLjRoLTEwLjhsLTIxLjUgNjBoOS44bDQuNi0xMy4yaDI0LjNsNC42IDEzLjJoMTAuOHptLTE4LTIxaC0xOS4ybDYuOC0xOC42YzEuMi0zLjIgMi4xLTYuNSAyLjgtOS41aC4yYy43IDMuMyAxLjUgNi4xIDIuNyA5LjJsNi43IDE4Ljl6TTUwNC40IDguNVYuNGgtNDIuN3Y4LjFoMTYuNXY1MS45aDkuN1Y4LjV6TTU0Ni4xIDYwLjR2LTguM2gtMjJWMzMuNEg1NDV2LTcuOWgtMjAuOVY4LjRoMjJ2LThoLTMxLjd2NjB6Ii8+PC9zdmc+" vertex="1" parent="1">
           <mxGeometry x="1186" y="456.15" width="81.94" height="13.71" as="geometry" />
+        </mxCell>
+        <mxCell id="59RjPKkOxkL2sefdzUnI-108" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="860" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="59RjPKkOxkL2sefdzUnI-109" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UiPath Process Executor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1197" y="894.38" width="157" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="59RjPKkOxkL2sefdzUnI-111" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIGhlaWdodD0iMzgiIHdpZHRoPSIzNy4yOTkwMDM2MDEwNzQyMiIgdmlld0JveD0iMC4xNTUwMDAwMDExOTIwOTI5IDAgMzcuMjk5MDAzNjAxMDc0MjIgMzgiPjxnIGZpbGw9IiMwMDg1Y2EiPjxwYXRoIGQ9Ik0zNy40NTQgMzYuODQ1VjEuMTU1QzM3LjQ1NC41NzggMzcgMCAzNi4zMTcgMEgxLjI5MkMuNjEgMCAuMTU1LjQ2Mi4xNTUgMS4xNTV2MzUuNjlDLjE1NSAzNy40MjMuNjEgMzggMS4yOTIgMzhoMzUuMDI1Yy42ODIgMCAxLjEzNy0uNTc4IDEuMTM3LTEuMTU1em0tMS40NzgtLjM0NkgxLjYzNFYxLjUwMmgzNC4zNDJ6Ii8+PHBhdGggZD0iTTE0LjM3IDMwLjg0YzUuMTE3IDAgOC40MTUtMi44ODkgOC40MTUtMTAuMzk2VjcuNzM5aC0zLjc1M1YyMC43OWMwIDQuOTY3LTEuOTMzIDYuNTg0LTQuNjYyIDYuNTg0cy00LjQzNS0xLjYxNy00LjQzNS02LjU4NFY3Ljg1NGgtMy45OFYyMC41NmMwIDcuMzkyIDMuMjk4IDEwLjI4IDguNDE1IDEwLjI4ek0yOS44MzUgMTAuODU3YzEuMzY1IDAgMi4zODgtLjkyNCAyLjM4OC0yLjE5NCAwLTEuMzg2LTEuMDIzLTIuMzEtMi4zODgtMi4zMXMtMi4zODguOTI0LTIuMzg4IDIuMzFjMCAxLjI3IDEuMDI0IDIuMTk0IDIuMzg4IDIuMTk0ek0zMS43NjggMTMuODZoLTMuODY2djE2Ljk4aDMuODY2eiIvPjwvZz48L3N2Zz4=" vertex="1" parent="1">
+          <mxGeometry x="1098" y="927" width="37" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="59RjPKkOxkL2sefdzUnI-115" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-05-128.png" vertex="1" parent="1">
+          <mxGeometry x="1124" y="951.49" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="59RjPKkOxkL2sefdzUnI-118" value="This is a Spring Boot Based Microservice that exposes REST endpoints to execute a process via the command line . This microservice must be deployed alongside with the UiRobot on the same machine." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1187" y="931" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
