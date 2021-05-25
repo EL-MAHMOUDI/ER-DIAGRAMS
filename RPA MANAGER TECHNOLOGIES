@@ -1,4 +1,4 @@
-<mxfile modified="2021-05-25T14:28:21.219Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="MNUHEPWkZttnhdoK5umx" version="14.7.0" type="github">
+<mxfile modified="2021-05-25T14:29:44.550Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_4wLZf4O_amN-erw-G3v" version="14.7.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -276,7 +276,7 @@
         <mxCell id="59RjPKkOxkL2sefdzUnI-115" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-05-128.png" vertex="1" parent="1">
           <mxGeometry x="1124" y="951.49" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="59RjPKkOxkL2sefdzUnI-118" value="This is a Spring Boot Based Microservice that exposes REST endpoints to execute a process via the command line . This microservice must be deployed alongside with the UiRobot on the same machine." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="59RjPKkOxkL2sefdzUnI-118" value="This is a Spring Boot Based Microservice that exposes secured REST endpoints to execute a process via the command line . This microservice must be deployed alongside with the UiRobot on the same machine.&amp;nbsp;&lt;br&gt;We will be using Spring Web (REST) with Spring Security Resource Server." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1187" y="931" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
