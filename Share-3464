@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2021-10-04T13:46:22.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="15.4.0" etag="8-t8DFwGQBTVjr3O92Xv" type="github"><diagram id="2TmuBWw6mORVKW2cA8O3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-04T21:40:17.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="GSCBkFQuMtscsJZ6NkVd" version="15.4.0" type="github">
+  <diagram id="2TmuBWw6mORVKW2cA8O3" name="Page-1">
+    <mxGraphModel dx="1022" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-7" value="Share-client" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="50" y="194" width="480" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-8" value="AccessAttributeClientServiceOkhttp &lt;span style=&quot;font-weight: normal&quot;&gt;implements&lt;/span&gt; AccessAttributeClientService" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-7">
+          <mxGeometry x="10" y="39.5" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-16" value="void setWorkspaceAccessAttribute(UserInfo userInfo, Optional&amp;lt;UserInfo&amp;gt; userInfoDelegation)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-8">
+          <mxGeometry y="29" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-10" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9 8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-8">
+          <mxGeometry y="59" width="460" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.workstation_client" vertex="1" parent="1">
+          <mxGeometry x="223" y="20" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-13" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="151" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-15" value="&lt;b&gt;_meeting&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-17" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="338" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-18" value="HTTP Post request to&amp;nbsp;&lt;br&gt;&quot;/services/api/access-attributes&quot; with&amp;nbsp;&lt;br&gt;a X-Service-Token = ${XAuthToken}&lt;br&gt;The token is generated from the UserInfo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-20" value="Sharing-item-api" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="480" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-21" value="AccessAttributeController" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="10" y="135" width="460" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-26" value="void setAttribute(WorkspaceAccessAttributeDTO dto)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-21">
+          <mxGeometry y="29" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-24" value="Generate context&lt;br&gt;from X-Service-Token, hence from the UserInfo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="155" y="29" width="165" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-25" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="220" y="93" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-37" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;arrowWidth=0.2666656494140625;arrowSize=0.4057975437330163;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="220" y="194" width="40" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-38" value="AccessAttributeService" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="10" y="240" width="460" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-39" value="void setAttribute(WorkspaceAccessAttributeDTO dto)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-38">
+          <mxGeometry y="29" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-43" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;arrowWidth=0.2666656494140625;arrowSize=0.4057975437330163;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="220" y="299" width="40" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-44" value="Delegates to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="260" y="202" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-45" value="Retrieve context and delegates to" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=north;base=10;position2=1;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-20">
+          <mxGeometry x="100" y="307" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-41" value="AccessAttributeDAO" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="61" y="747" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-42" value="void setWorkspaceAttribute(workspaceAccessAttribute, context.getWorkspaceId())" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iudUbJrhdMZJU2_7Wg2k-41">
+          <mxGeometry y="29" width="460" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-47" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="610" y="70" width="150" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-48" value="UserInfo has a field&amp;nbsp;&lt;br&gt;with name workspaceId. We are relying on this field to retrieve the workspaceId and perform the process described on the left. This way a client can change the watermark option for his workspace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="109" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-50" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Info.svg;" vertex="1" parent="1">
+          <mxGeometry x="660" y="74" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-51" value="A user of type SUPPORT&lt;br&gt;in the _meeting application&lt;br&gt;is a user who doesn&#39;t have a wporkpace. We want to make this user able to change the watermark option for a given workspace. The actual implementation doesn&#39;t support this." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="594" y="430" width="166" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/bitsies/128/Cancel-128.png" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-53" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="50" y="870" width="700" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iudUbJrhdMZJU2_7Wg2k-54" value="&lt;b&gt;How to evolve our code in order to support this new feature ?&lt;br&gt;- &lt;/b&gt;Consider adding a new method to the AcccessAttributeClientService interface.&amp;nbsp;This method is similar (surcharge) to the setWorspaceAccessAttribute but with an extra parameter of type int named WorkspaceId.&lt;br&gt;- In the body of the method, the request sent includes a query parameter holding the WorkspaceId.&lt;br&gt;- In AccessAttributeController add a parameter in the setAttribute method to support the WorkspaceId query string&lt;br&gt;- In AccessAttributeService change signature of the setAttribute method to support the query string" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="840" width="670" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
